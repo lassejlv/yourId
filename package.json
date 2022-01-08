@@ -1,0 +1,20 @@
+{
+  "name": "yourid",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nodemon tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassv/yourId.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassv/yourId/issues"
+  },
+  "homepage": "https://github.com/lassv/yourId#readme"
+}
