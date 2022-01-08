@@ -5,13 +5,13 @@ A simple id generator. You can use it to small projects.
 ## Installation
 
 ```sh
-$ npm install your-id
+$ npm install yourid
 ```
 
 ## Usage
 
 ```js
-var yourId = require("your-id");
+var yourId = require("yourid");
 
 // Generate a new id
 
