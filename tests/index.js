@@ -1,10 +1,11 @@
-const yourId = require("../index");
+var yourId = require("yourid");
 
-// use the includePrefix function to generate a key with a prefix
-const key = yourId.generate(
-  11,
-  "my-",
-  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-);
+// Generate a new id
 
-console.log(key);
+console.log(yourId.generate()); // => Random ID
+
+// Custom id length
+console.log(yourId.generate(10)); // => Random ID with length 10
+
+// Include a prefix
+console.log(yourId.generate("%", 10)); // => %-10 String ID

@@ -1,20 +1,26 @@
 {
-  "name": "yourid",
-  "version": "0.1.3",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "npx nodemon tests/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lassv/yourId.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lassv/yourId/issues"
-  },
-  "homepage": "https://github.com/lassv/yourId#readme"
+    "name": "yourid",
+    "version": "1.1.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx nodemon tests/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lassv/yourId.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lassv/yourId/issues"
+    },
+    "homepage": "https://github.com/lassv/yourId#readme",
+    "devDependencies": {
+        "eslint": "^8.6.0"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.7"
+    }
 }

@@ -2,6 +2,11 @@
 
 A simple id generator. You can use it to small projects.
 
+## Whats new?
+
+    - [v1.1.1] (2022-12-2)
+        - Added `check update` command. So the package can check for updates.
+
 ## Installation
 
 ```sh
@@ -21,5 +26,5 @@ console.log(yourId.generate()); // => Random ID
 console.log(yourId.generate(10)); // => Random ID with length 10
 
 // Include a prefix
-console.log(yourId.generate("prefix")); // => prefix-Random ID
+console.log(yourId.generate("%", 10)); // => %-Random ID with length 10
 ```
