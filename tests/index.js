@@ -1,11 +1,9 @@
-var yourId = require("yourid");
+const id = require("../index");
 
-// Generate a new id
-
-console.log(yourId.generate()); // => Random ID
-
-// Custom id length
-console.log(yourId.generate(10)); // => Random ID with length 10
-
-// Include a prefix
-console.log(yourId.generate("%", 10)); // => %-10 String ID
+console.log(
+    id.generate({
+        length: 1,
+        prefix: "!",
+        includePrefix: true,
+    })
+);
