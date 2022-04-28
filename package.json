@@ -1,7 +1,7 @@
 {
     "name": "yourid",
-    "version": "1.2.3",
-    "description": "",
+    "version": "1.4.2",
+    "description": "A simple id generator. Thats fast, easy, and fun to use.",
     "main": "index.js",
     "scripts": {
         "test": "npx nodemon tests/index.js"

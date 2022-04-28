@@ -1,6 +1,6 @@
 ## yourId
 
-A simple id generator. You can easy add to your project.
+A simple id generator. Thats fast, easy, and fun to use.
 
 ## Whats new?
 
@@ -9,6 +9,9 @@ A simple id generator. You can easy add to your project.
 
      - [v1.2.3] (2022-15-2)
         - Added new command `id` to generate a new id, to make it a lot easier.
+
+     - [v1.4.1] (2022-8-4)
+        - Added custom keyspace, so you can use your own custom numbers, letters, and symbols.
 
 ## Installation
 
@@ -26,6 +29,7 @@ var yourId = require("yourid");
 console.log(
     yourId.generate({
         length: 10, // the length of the random id string
+        keyspace: "customkeyspace", // the keyspace to use
         prefix: "yourPrefix", // set a prefix
         includePrefix: true, // you can set it to FALSE or TRUE
     })
